@@ -13,23 +13,23 @@ const Landing: React.FC = () => {
         <Button
           title="Small Round Button"
           size="small"
-          shape="rounded-full"
+          shape="rounded-sm"
           onClick={() => alert("Small round button was pressed!")}
-          styles="mt-4 bg-purple-600 hover:bg-purple-700"
+          className="mt-4 bg-purple-600 hover:bg-purple-700"
         />
          <Button
           title="Medium Round Button"
           size="medium"
-          shape="rounded-full"
+          shape="rounded-md"
           onClick={() => alert("Medium round button was pressed!")}
-          styles="mt-4 bg-purple-600 hover:bg-purple-700"
+          className="mt-4 bg-purple-600 hover:bg-purple-700"
         />
          <Button
           title="Large Round Button"
           size="large"
-          shape="rounded-full"
+          shape="rounded-lg"
           onClick={() => alert("Large round button was pressed!")}
-          styles="mt-4 bg-purple-600 hover:bg-purple-700"
+          className="mt-4 bg-purple-600 hover:bg-purple-700"
         />
       </div>
     </div>
