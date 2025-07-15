@@ -16,12 +16,14 @@ const Landing: React.FC = () => {
           shape="rounded-sm"
           onClick={() => alert("Small round button was pressed!")}
           className="mt-4 bg-purple-600 hover:bg-purple-700"
+          styles={{ color: "white" }}
         />
          <Button
           title="Medium Round Button"
           size="medium"
           shape="rounded-md"
           onClick={() => alert("Medium round button was pressed!")}
+          styles={{ color: "black" }}
           className="mt-4 bg-purple-600 hover:bg-purple-700"
         />
          <Button
@@ -29,6 +31,15 @@ const Landing: React.FC = () => {
           size="large"
           shape="rounded-lg"
           onClick={() => alert("Large round button was pressed!")}
+          styles={{ color: "white" }}
+          className="mt-4 bg-purple-600 hover:bg-purple-700"
+        />
+         <Button
+          title="Large Round Button"
+          size="large"
+          shape="rounded-full"
+          onClick={() => alert("Large round button was pressed!")}
+          styles={{ color: "black" }}
           className="mt-4 bg-purple-600 hover:bg-purple-700"
         />
       </div>

@@ -2,6 +2,7 @@ import { ButtonProps } from "@/interfaces";
 
 const Button: React.FC<ButtonProps> = ({
   title,
+  styles,
   className,
   onClick,
   size = "medium",
@@ -26,7 +27,7 @@ const Button: React.FC<ButtonProps> = ({
   } ${sizeStyles[size]} ${shapeStyles[shape]}`;
 
   return (
-    <button onClick={onClick} className={buttonStyles}>
+    <button onClick={onClick} style={styles} className={buttonStyles}>
       {title}
     </button>
   );
