@@ -27,7 +27,7 @@ const Button: React.FC<ButtonProps> = ({
   } ${sizeStyles[size]} ${shapeStyles[shape]}`;
 
   return (
-    <button onClick={onClick} style={styles} className={buttonStyles}>
+    <button onClick={onClick} styles={styles} className={buttonStyles}>
       {title}
     </button>
   );

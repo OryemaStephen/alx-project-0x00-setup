@@ -4,7 +4,7 @@ export interface PillProps {
 
 export interface ButtonProps {
   title: string;
-  styles: React.CSSProperties;
+  styles: string;
   onClick?: () => void;
   className?: string;
   size?: 'small' | 'medium' | 'large';
